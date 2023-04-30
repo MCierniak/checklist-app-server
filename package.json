@@ -2,12 +2,15 @@
   "name": "checklist-app-backend",
   "version": "0.1.0",
   "description": "A simple React.js + Node.js project.",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs",
+    "start": "nodemon index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Mateusz Cierniak",
-  "license": "CC-BY-NC-ND-4.0"
+  "license": "CC-BY-NC-ND-4.0",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }

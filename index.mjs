@@ -1,6 +1,6 @@
 import { createServer } from 'http';
 
-import {get_IPv4} from './utils'
+import {get_IPv4} from './utils.mjs'
 
 const IP = get_IPv4();
 const PORT = process.env.PORT || 3080;
